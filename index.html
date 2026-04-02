@@ -1,0 +1,19 @@
+<div class="mb-4">
+    <h3>Dépenses</h3>
+    <input id="expenseInput" type="number" class="form-control" placeholder="Montant">
+    <button onclick="addExpense()" class="btn btn-success mt-2">Ajouter</button>
+    <p>Total : <span id="totalExpense">0</span> Ar</p>
+  </div>
+
+  <!-- Objectifs -->
+  <div>
+    <h3>Objectifs</h3>
+    <div class="progress">
+      <div id="progressBar" class="progress-bar" style="width: 0%">0%</div>
+    </div>
+    <button onclick="increaseProgress()" class="btn btn-warning mt-2">Progresser</button>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
