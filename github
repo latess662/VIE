@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Projet Vie+ initial"
+git branch -M main
+git remote add origin https://github.com/ton-nom/vie-plus.git
+git push -u origin main
